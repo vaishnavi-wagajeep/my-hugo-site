@@ -20,6 +20,9 @@ jobs:
       with:
         hugo-version: 'latest'
 
+    - name: Make script executable
+      run: chmod +x ./update_submodules.sh
+
     - name: Update submodules
       run: ./update_submodules.sh
 
@@ -31,4 +34,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
-
