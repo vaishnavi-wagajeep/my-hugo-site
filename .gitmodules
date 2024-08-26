@@ -1,9 +1,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-[submodule "content/repo1"]
-	path = content/repo1
-	url = https://github.com/vaishnavi-wagajeep/repo1.git
 [submodule "repo1"]
 	path = repo1
 	url = https://github.com/vaishnavi-wagajeep/repo1.git
