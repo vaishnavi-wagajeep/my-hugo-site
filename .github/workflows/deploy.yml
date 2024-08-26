@@ -15,6 +15,11 @@ jobs:
       with:
         submodules: true  # Pull in the submodules
 
+    - name: Set up Git user
+      run: |
+        git config --global user.email "github-actions@github.com"
+        git config --global user.name "GitHub Actions"
+
     - name: Set up Hugo
       uses: peaceiris/actions-hugo@v2
       with:
