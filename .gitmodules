@@ -10,3 +10,6 @@
 [submodule "content/repo3"]
 	path = content/repo3
 	url = https://github.com/vaishnavi-wagajeep/repo3.git
+[submodule "content/repo1"]
+	path = content/repo1
+	url = https://github.com/vaishnavi-wagajeep/repo1.git
